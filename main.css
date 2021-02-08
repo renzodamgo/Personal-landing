@@ -53,13 +53,64 @@ p{
 }
 
 .fade-in {
-animation: fadeIn ease 1s;
--webkit-animation: fadeIn ease 1s;
--moz-animation: fadeIn ease 1s;
--o-animation: fadeIn ease 1s;
--ms-animation: fadeIn ease 1s;
+animation: fadeIn ease 2s;
+-webkit-animation: fadeIn ease 2s;
+-moz-animation: fadeIn ease 2s;
+-o-animation: fadeIn ease 2s;
+-ms-animation: fadeIn ease 2s;
 }
 @keyframes fadeIn {
 0% {opacity:0;}
 100% {opacity:1;}
 }
+@media screen and (min-width:0px) {
+    h1{
+        font-size:24;
+    }
+    h2{
+        font-size:20;
+    }
+    .content{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media screen and (min-width:1200px) {
+    h1{
+        font-size:30;
+    }
+    h2{
+        font-size:26;
+    }
+    .content{
+        margin-left: 15%;
+    margin-right: 15%;
+    }
+}
+@media screen and (min-width:1800px) {
+    h1{
+        font-size:35;
+    }
+    h2{
+        font-size:30;
+    }
+    .content{
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    h1{
+        font-size:40;
+    }
+    h2{
+        font-size:35;
+    }
+    .content{
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+  }
+
+  
